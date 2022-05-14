@@ -11,15 +11,15 @@
 ## 開発の準備
 
 1. Cloud9の確認
-  - 現在のパスが`~/environment/` であることを確認
+    - 現在のパスが`~/environment/` であることを確認
 2. クローンする
-  - `git clone git@github.com:leaders14-webs/count_test.git`でリポジトリをクローン
-  - [Github](https://github.com/new)で、リポジトリを新規作成（リポジトリ名: `ld14_count_test`）
-  - `git remote set-url origin <各自のレポジトリURL>`で、アップロード先を自分のリポジトリに変更
+    - `git clone git@github.com:leaders14-webs/count_test.git`でリポジトリをクローン
+    - [Github](https://github.com/new)で、リポジトリを新規作成（リポジトリ名: `ld14_count_test`）
+    - `git remote set-url origin <各自のレポジトリURL>`で、アップロード先を自分のリポジトリに変更
 3. 動作確認
-  - `cd 確認テストのディレクトリ名`で移動
-  - `rake db:create`, `rake db:migrate`を入力して DB を準備
-  - `ruby app.rb` と入力してちゃんと起動するか確認(できなかったら講師を呼んでね！)
+    - `cd 確認テストのディレクトリ名`で移動
+    - `rake db:create`, `rake db:migrate`を入力して DB を準備
+    - `ruby app.rb` と入力してちゃんと起動するか確認(できなかったら講師を呼んでね！)
 
 ## commit のやり方
 
