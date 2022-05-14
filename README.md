@@ -13,9 +13,7 @@
 1. Cloud9の確認
     - 現在のパスが`~/environment/` であることを確認
 2. クローンする
-    - `git clone git@github.com:leaders14-webs/count_test.git`でリポジトリをクローン
-    - [Github](https://github.com/new)で、リポジトリを新規作成（リポジトリ名: `ld14_count_test`）
-    - `git remote set-url origin <各自のレポジトリURL>`で、アップロード先を自分のリポジトリに変更
+    - `git clone <各自のレポジトリURL>`でリポジトリをクローン
 3. 動作確認
     - `cd 確認テストのディレクトリ名`で移動
     - `rake db:create`, `rake db:migrate`を入力して DB を準備
