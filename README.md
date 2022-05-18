@@ -13,7 +13,7 @@
 1. Cloud9の確認
     - 現在のパスが`~/environment/` であることを確認
 2. クローンする
-    - `git clone <各自のレポジトリURL>`でリポジトリをクローン
+    - `git clone <このレポジトリURL>`でリポジトリをクローン
 3. 動作確認
     - `cd 確認テストのディレクトリ名`で移動
     - `rake db:create`, `rake db:migrate`を入力して DB を準備
